@@ -16,7 +16,7 @@ public class TestApplication {
 	@RequestMapping("/")
 	public String message()
 	{
-		return "EKSDEMO1 cluster ready for Errie Client";
+		return "EKS cluster is ready to serve traffic.";
 	}
 
 }
